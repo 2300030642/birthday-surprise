@@ -426,12 +426,15 @@ button:hover{
 @media (max-width:768px){
 
 body{
-    overflow:auto;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 
 /* Pages */
 
 .page{
+    min-height:100vh;
+    height:auto;
     padding:15px;
 }
 
@@ -450,16 +453,15 @@ body{
 /* Birthday Card */
 
 .birthdayCard{
-
     width:100%;
     max-width:360px;
 
+    min-height:90vh;
     height:auto;
 
-    min-height:90vh;
+    padding:20px;
 
-    padding:20px 18px;
-
+    margin:20px auto;
 }
 
 /* Headings */
